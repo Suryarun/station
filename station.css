@@ -1,0 +1,49 @@
+body{
+    background-image: url("yarn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-style: italic;
+    display: inline;
+    border-bottom: 2px dashed black;
+}
+h2{
+    font-size: 50px;
+    /*text-shadow: 10px 2px beige;*/
+}
+button{
+    color: white;
+    margin: 1px 0px;
+    width: 200px;
+    height: 30px;
+}
+#increment-btn{
+    margin-top: 10px;
+    background: rgb(45, 88, 130);
+    border-radius: 10px;
+    border: 2px solid bisque;
+}
+#decrement{
+    margin-top: 10px;
+    background: rgb(45, 88, 130);
+    border-radius: 10px;
+    border: 2px solid bisque;
+}
+#save-btn{
+    margin-top: 10px;
+    background: rgb(21, 54, 23);
+    border-radius: 10px;
+    border: 2px solid bisque;
+}
+.container{
+    background-color: rgb(56, 73, 67);
+    margin: 50px auto;
+    padding-top: 20px;
+    max-width: 15%; 
+    border: 2px solid black;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
